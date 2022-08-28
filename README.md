@@ -1,9 +1,20 @@
 <h1>Banco api - Leandro Henrique dos Santos </h1>
-<h2>Instalação</h2>
+<h2>Configuração</h2>
+
+
+
+Executar os seguintes comandos no diretório banco-api
+
+```
+
+composer install
+
+cp .env.example .env
+
+```
 
 Criar banco de dados, e apontar a aplicação para ele através do arquivo de configuração .env
 
-Executar os seguintes comandos:
 
 ```
 php artisan migrate
